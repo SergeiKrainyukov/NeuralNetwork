@@ -3,10 +3,10 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class Neuron {
-    private int[][] weights;
-    private int limit;
-    private int rows;
-    private int cols;
+    private final int[][] weights;
+    private final int limit;
+    private final int rows;
+    private final int cols;
 
     public Neuron(int rows, int cols) {
         this.weights = new int[rows][cols];
