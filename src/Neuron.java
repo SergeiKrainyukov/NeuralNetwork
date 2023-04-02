@@ -8,9 +8,9 @@ public class Neuron {
     private int rows;
     private int cols;
 
-    public Neuron(int rows, int cols, double limit) {
+    public Neuron(int rows, int cols) {
         this.weights = new double[rows][cols];
-        this.limit = limit;
+        this.limit = 35;
         this.rows = rows;
         this.cols = cols;
     }
